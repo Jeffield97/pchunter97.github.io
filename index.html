@@ -54,7 +54,12 @@
         transform: scale(1.3);
         transition: transform .5s;
       }
-    
+      .m-right{
+         margin-right: 30px;
+      }
+      .min-vh-card{
+        min-height: 23.2rem;
+      }
     </style>
   </head>
   <body>
@@ -69,8 +74,8 @@
         </div>
         <div class="col-lg-8 col-md-12 bg-body">
           <div class="row my-3"><h1 class="fw-bolder">About me</h1></div>
-          <div class="row mb-3">
-            <div class="col-sm"><h5>Age: 25 years</h5></div>
+          <div class="row mb-3 m-right">
+            <div class="col-sm"><h5>Age:25 years</h5></div>
             <div class="col-sm d-inline-flex">
               <i class="bi bi-phone"></i>
               <h5>(+593) 0985615859</h5>
@@ -84,14 +89,9 @@
               <h5>jchariguaman@gmail.com</h5>
             </div>
           </div>
-          <div class="row">
-            <p class="text-justify text-start">
-              Egresado de ingeniería en software, con un gran interés en el área
-              de desarrollo, ciberseguridad e informática en general.
-              Autodidacta en las nuevas tecnologías, y con gusto a la solución
-              de problemas. Con capacidad de aplicar mis conocimientos al ámbito
-              profesional. En busca de una oportunidad laboral en la que aplicar
-              y desarrollar mis habilidades, también para adquirir nuevas.
+          <div class="row m-right">
+            <p class="text-justify">
+              !Hello!, my name is Jefferson Chariguamán, I am a graduate student of software engineering. I'am web developer (Backed) and mobile developer(Android applications), with experience in python (Machine Learning, Django, Web Scrapping), javascript (React, NodeJS), Kotlin, Java (Springboot). I have developed a mobile app and and various web projects.
             </p>
           </div>
           <div class="row">
@@ -99,7 +99,7 @@
             <div class="row">
               <!-- Card de development -->
               <div class="col-sm">
-                <div class="card">
+                <div class="card my-2 min-vh-card">
                   <img
                     src="https://i.pinimg.com/originals/44/f0/0d/44f00d6dc54c73e29bcc362c1bd5cd8a.png"
                     class="card-img m-3"
@@ -108,21 +108,25 @@
                   />
                   <h6 class="card-title mx-3">Web Development</h6>
                   <div class="card-body text-justify fw-light">
-                    Desarrollo web backend con tecnologías y como:
+                    Backend web development with technologies such as:
                     <ul>
                       <li>Java</li>
-                      <li>Javascript (nodeJs))</li>
-                      <li>HTML + CSS</li>
+                      <li>Javascript</li>
                       <li>Python</li>
                     </ul>
-                    Arquitectura de Programación Orientada a Objetos,
+                    On the other hand, in the frontend I have made the use of:
+                    <ul>
+                      <li>Bootstrap 5</li>
+                      <li>HTML + CSS</li>
+                      <li>React</li>
+                    </ul>
                   </div>
                 </div>
               </div>
 
               <!-- Card de database -->
               <div class="col-sm">
-                <div class="card">
+                <div class="card my-2 min-vh-card">
                   <img
                     src="https://cdn-icons-png.flaticon.com/512/603/603156.png"
                     class="card-img m-3"
@@ -131,13 +135,13 @@
                   />
                   <h6 class="card-title mx-3">Data base</h6>
                   <div class="card-body text-justify fw-light">
-                    Manejo de gestores de base de datos como:
+                    I have used different relational and non-relational database managers, medium-advanced level queries in:
+                    <br><br>
                     <ul>
                       <li>MySQL</li>
                       <li>PostgreSQL</li>
                       <li>Mongo DB</li>
                     </ul>
-                    Procedimientos almacenados, consultas medianas en SQL
                   </div>
                 </div>
               </div>
@@ -145,8 +149,8 @@
 
             <div class="row mt-3">
               <!-- Card de cibersecurity -->
-              <div class="col-sm">
-                <div class="card">
+              <div class="col-sm" >
+                <div class="card my-2 min-vh-card">
                   <img
                     src="https://www.fuseeng.com/wp-content/uploads/2021/12/icon-cybersecurity-1024x1024.png"
                     class="card-img m-3"
@@ -155,14 +159,19 @@
                   />
                   <h6 class="card-title mx-3">Cibersecurity</h6>
                   <div class="card-body text-justify fw-light">
-                    En el área de.
+                    <p>Due to the importance in cybersecurity it is important to mention that I have knowledge in: </p>
+                    <ul>
+                      <li>Cybersecurity Macros</li>
+                      <li>Python Script</li>
+                      <li>Personal cibersecurity</li>
+                    </ul> 
                   </div>
                 </div>
               </div>
 
               <!-- Card de database -->
               <div class="col-sm">
-                <div class="card">
+                <div class="card my-2 min-vh-card">
                   <img
                     src="https://upload.wikimedia.org/wikipedia/commons/2/2d/Mobile-Smartphone-icon.png"
                     class="card-img m-3"
@@ -171,10 +180,15 @@
                   />
                   <h6 class="card-title mx-3">Mobile development</h6>
                   <div class="card-body text-justify fw-light">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Animi repellat iusto accusantium ex, debitis amet itaque
-                    ducimus adipisci, a sapiente obcaecati magnam numquam.
-                    Aliquam, consequatur nihil voluptates eos quod aut.
+                    Development of native mobile applications for the Android operating system, using the Kotlin language, as well as integration with firebase services. Applying functions such as:
+                    <br> <br>
+                    <ul>
+                      <li>Realtime database</li>
+                      <li>Authentication</li>
+                      <li>Consumption of services (API)</li>
+                      <li>Storage</li>
+                      </ul> 
+                    
                   </div>
                 </div>
               </div>
@@ -236,7 +250,7 @@
         </div>
       </div>
       <div class="row shadow-lg mx-4 my-5">
-        <h2 class="text-black text-opacity-75 fw-bold mx-4 mt-3">Cerficados</h2>
+        <h2 class="text-black text-opacity-75 fw-bold mx-4 mt-3">Certificates</h2>
         <div class="col-lg-4 col-sm-12">
           <ul class="text-black text-opacity-75 fw-bold mx-4">
             <li>
@@ -283,15 +297,14 @@
               <h6>Análisis exploratorio de datos</h6>
             </li>
             <li>
-              <h6>PRINCIPIO DE ANÁLISIS Y DISEÑO ORIENTADO A OBJETOS 
-                UTILIZANDO EL ESTÁNDAR UML
+              <h6>Principio de análisis y diseño orientado a objetos utilizando el estándar UML
               </h6>
             </li>
             <li>
               <a class="text-decoration-none text-black text-opacity-75 fw-bold" href="https://backtrackacademy.com/examen/92/certificate.pdf?key=bc1e962ab118a9c306cff3f0d349b1d5"><h6>Seguridad personal</h6></a>
             </li>
             <li>
-              <h6>PROCESOS DE SOPORTE TECNICO PARA EL MANTENIMIENTO DE EQUIPOS DE COMPUTO</h6>
+              <h6>Procesos de soporte técnico para el mantenimiento de equipos de cómputo</h6>
             </li>
           </ul>
         </div>
